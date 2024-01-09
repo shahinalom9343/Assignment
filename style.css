@@ -1,0 +1,277 @@
+body{
+  width: 100%;
+  height: 7330px;
+  background-color: #fff;
+}
+/*banner starts here */
+.banner{
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("Banner_Image.png");
+  width: 1320px;
+  height: 600px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  margin: 50px 140px;
+  position: relative;
+}
+.banner p{
+  color: #FFF;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  margin-top: 170px;
+  margin-left: 540px;
+  
+}
+.banner h2{
+  color: #FFF;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 95px;
+  position: absolute;
+  margin-top: 230px;
+  margin-left: 420px;
+}
+/*main starts here */
+.discount{
+  color: #F00;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0px 
+}
+.deal{
+  color: #F00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.category_name{
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.new_year_image{
+  width: 802.9px;
+height: 500px;
+flex-shrink: 0;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.midnight_party{
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("Vectorrr.png");
+  background-repeat: no-repeat;
+  width: 1320px;
+  height: 600px;
+  flex-shrink: 0;
+  margin: 50px 140px;
+  position: relative;
+  display: flex;
+}
+.welcome_title{
+  color: #FFF;
+  font-family: Merriweather;
+  position: absolute;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+  margin:126px 552px 0px 126px;
+}
+.midnight_des{
+  color: rgba(255, 255, 255, 0.80);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; 
+  width: 697px;
+  position: absolute;
+  margin:326px 497px 0px 126px;
+}
+.btn{
+  color: #ffffff;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+position: absolute;
+margin:434px 1059px 124px 158px;
+opacity: 0.9;
+}
+.midnight_party .midnight_batch{
+  display: flex;
+  flex-direction: row;
+  width: 319.83px;
+  height: 464.662px;
+  padding: 0.008px 0px 0px 0px;
+  flex-shrink: 0;
+  position: absolute;
+}
+.address{
+  width: 1320px;
+height: 482px;
+flex-shrink: 0;
+background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+margin:0 auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.address .headline{
+  color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px; /* 175% */
+text-transform: capitalize;
+}
+.address .location{
+  color: #070211;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px;
+text-transform: capitalize;
+}
+.address .btn{
+  display: inline-flex;
+padding: 16px 32px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+background: #F00;
+margin: 0 auto;
+margin-top: 450px;
+}
+.portfolio{
+  margin:0 auto;
+  width: 1320px;
+  padding-left: 10px;
+  
+}
+.portfolio .gift{
+  color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.portfolio .name{
+  color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+.portfolio .portfolio_des{
+  width: 896px;
+  color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+}
+.portfolio .items img{
+  width: 424px;
+  height: 450px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: lightgray 50% / cover no-repeat;
+}
+.portfolio .items img:hover{
+  border:4px solid rgba(0, 0, 0, 0.322);
+}
+.subscription{
+  width: 1320px;
+height: 616px;
+flex-shrink: 0;
+border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+margin-top: 140px;
+margin:0 auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.subscription .email_icon{
+  width: 150px;
+height: 150px;
+flex-shrink: 0;
+}
+.subscription h1{
+  color: #070211;
+text-align: center;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+.subscription p{
+  color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+width:896px;
+}
+.subscription .field{
+  width: 648px;
+height: 72px;
+flex-shrink: 0;
+border-radius: 50px;
+background: #FFF;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+}
+
+/*main ends here */
+
+/*footer starts here */
+footer{
+  width: 1600px;
+  height: 609px;
+  flex-shrink: 0;
+  background-color: #070211;
+  margin:0 auto;
+  position: relative;
+}
+/*footer ends here */
